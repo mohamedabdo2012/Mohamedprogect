@@ -1,0 +1,43 @@
+body {
+    background-image: linear-gradient(yellow, rgb(227, 227, 190));
+    min-height: 100vh;
+}
+
+#myDiv {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 5px;
+    border-style: solid;
+    border-radius: 20px;
+}
+img{
+   border: 10px;
+   border-style: groove; 
+   border-radius: 20px;
+   border-color: rgb(61, 140, 179);
+   width: 80%;
+   max-width: 200px;
+}
+h1{
+    font-size: 40px;
+}
+p, li {
+    font-size: 25px;
+}
+h3{
+    font-size: 22px;
+}
+#myLink {
+    font-size: 22px;
+    color:black ;
+    font-weight:bold ;
+}
+#myLink:hover {
+   color: blueviolet;
+
+}

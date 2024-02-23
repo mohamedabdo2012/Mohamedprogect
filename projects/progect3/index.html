@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="Styl.css">
+</head>
+<body>
+    <div id="dateDiv">
+    </div>
+    <div id="mainDiv">
+        <div id="inputDiv">
+            <h1><span id="ageSpan">Age</span> Calculator</h1>
+            <br>
+            <input id="nameInput" type="text" placeholder="Type your name">
+            <br><br>
+            <input id="mobileInput" type="number" placeholder="Type your mobile number">
+            <br><br>
+            <input id="addressInput" type="text" placeholder="Type your address">
+            <br><br>
+            <label>Birth Date</label>
+            <br><br>
+            <input id="dateInput" type="date" name="">
+            <br><br>
+            <button onclick="checkInput()">Calculate</button>
+        </div>
+        <div id="resultDiv" style="display: none;">
+            <h3 id="resultText"></h3>
+            <br><br>
+            <button onclick="recalculate()">Re-Calculate</button>
+        </div>
+    </div>
+<script src="scriptjs.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+body {
+    background-color: azure;
+}
+
+#mainDiv {
+    width: 90%;
+    max-width: 600px;
+    background-color: beige;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 6px;
+}
+
+h1 {
+    border: 2px solid;
+    color: darkblue;
+    display: inline-block;
+    border-radius: 6px;
+    padding: 9px 0;
+    padding-right: 5px;
+    font-size: 50px;
+}
+
+#ageSpan {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+}
+
+input {
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+}
+
+label {
+    font-size: 20px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+#dateDiv {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    padding: 20px;
+}
